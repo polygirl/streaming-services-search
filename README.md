@@ -21,6 +21,6 @@ npm run lint
 
 ## Run details eg Postman
 
-http://localhost:3000/api/products/list
+http://localhost:3000/api/titles/list
 
 
