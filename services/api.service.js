@@ -15,8 +15,15 @@ module.exports = {
 			whitelist: [
 				// Access to any actions in all services
 				"*"
-			]
-		}]
+			],
+			aliases: {
+				"REST titles": "titles"
+			}
+		}],
 
+		// Serve assets from "public" folder
+		assets: {
+			folder: "public"
+		}
 	}
 };
